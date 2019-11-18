@@ -1,0 +1,53 @@
+<!-- 我又来了哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /*选中html 和body  */
+        html,body{
+            height: 100%;
+        }
+      .box{
+          width: 200px;
+          height: 200px;
+          border: 2px solid red;
+          /* 定宽居中 */
+          /* 设置上下左右外边距   上下威0px 左右为 自动  */
+          /* margin: 0px auto; */
+          /* 设置左外边距  */
+          margin-left: auto;
+          /* 设置右边距 */
+          margin-right: auto;
+      }
+      .wrap{
+          width: 500px;
+          height: 500px;
+          background-color: red;
+      }
+      .inset{
+          width: 200px;
+          height: 200px;
+          background-color: purple;
+          margin: 20px auto;
+      }
+    </style>
+</head>
+<body>
+    <!-- 
+        定宽居中：
+        只有块元元素；才能实现这样效果；
+        子元素在父容器中；水平方向居中；
+        1：给当前元素设置固定宽度 
+        2: 当前元素；左右外边距为自动
+
+     -->
+    <div class="box"></div>
+    <div class="wrap">
+        <div class="inset"></div>
+    </div>
+</body>
+</html>2;
